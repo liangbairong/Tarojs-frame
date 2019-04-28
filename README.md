@@ -5,6 +5,8 @@ tarojs的多端框架 主要是微信小程序使用了ts语法
 >>dev.js：测试环境配置  
 >>prod.js：生产环境配置  
 >>index.js：主要配置  
+
+
 > src：开发目录  
 >>api：接口目录   
 assets：静态文件目录  
