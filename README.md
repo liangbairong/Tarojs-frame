@@ -1,7 +1,7 @@
 # Tarojs-frame
 tarojs的多端框架 主要是微信小程序使用了ts语法
-目录结构：
-config：配置
+目录结构： <br />
+config：配置 <br />
     dev.js：测试环境配置
     prod.js：生产环境配置
     index.js：主要配置
