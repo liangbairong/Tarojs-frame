@@ -1,0 +1,37 @@
+.base_slide_con{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+  width: 100%;
+    background: #fff;
+    z-index: 100;
+}
+.slide_show{
+    animation: sdiledowm 0.3s ease forwards;
+}
+.slide_hide{
+    animation: sdileout 0.3s ease forwards;
+}
+@keyframes sdiledowm {
+  0% {
+    transform: translate(0, 100%) ;
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes sdileout {
+  0% {
+    transform: none;
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 100%);
+    opacity: 0;
+  }
+}
+

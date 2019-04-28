@@ -1,0 +1,36 @@
+.am_box{
+    background: #fff;
+    border: 1PX solid #ccc;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+    .an_span{
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 40px;
+        vertical-align: middle;
+        border-right: 1PX solid #ccc;
+        box-sizing: border-box;
+        color: #eb5d51;
+        // background: #eee;
+        &:nth-of-type(2){
+            border-right: none;
+            
+        }
+    }
+    .an_no{
+        color: #ccc;
+    }
+    .an_input{
+        display:inline-block;
+        width: 80px; 
+        border: none;border-right: 1PX solid #ccc;
+        height: 60px;
+        vertical-align: middle;font-size: 30px;
+        
+
+    }
+}

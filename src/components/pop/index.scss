@@ -1,0 +1,37 @@
+.pop_con{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transform-origin: 0 0;
+    z-index: 100;
+    
+}
+.popshow{
+    animation: scaleShow 0.3s ease forwards;
+}
+.pophide{
+    animation: scaleHide 0.3s ease forwards;
+}
+@keyframes scaleShow {
+    0% {
+      transform:  scale(0) translate(-50%,-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1) translate(-50%,-50%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes scaleHide {
+    0% {
+      transform:  scale(1) translate(-50%,-50%);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0) translate(-50%,-50%);
+      opacity: 0;
+    }
+  }
+

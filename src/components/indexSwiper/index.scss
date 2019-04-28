@@ -1,0 +1,22 @@
+.index_swiper{
+    width: 100%;
+    height:350px;
+    overflow: hidden;
+    position: relative;
+    .index_swiper_list{
+        // transition: transform 0.3s;
+        position: absolute;
+        top: 0;
+        .index_swiper_item{
+           
+            float: left;
+            .banner_item{
+                float: left;
+                height: 350px;
+                border-radius: 16px;
+                display: block;
+            }
+        }
+    }
+   
+}

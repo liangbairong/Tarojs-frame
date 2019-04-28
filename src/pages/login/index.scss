@@ -1,0 +1,117 @@
+page {
+    background: #fff;
+    height: 100%;
+}
+
+.auth{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.auth_box{
+  width: 100%;
+}
+.btn_box{
+    padding: 0 20px;
+}
+.sub_icon{
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+/* 绑定手机号 */
+.logo {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.logo image {
+    width: 120px;
+    height: 120px;
+}
+
+.reg_box{
+    width: 640px;
+    margin: auto;
+
+}
+
+
+.PhoneInput {
+    height:90px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+}
+
+.text {
+    height: 90px;
+    font-size: 40px;
+    color: #252525;
+    border: none;
+    font-size: 30px;
+}
+
+.PhoneMsgcode {
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.text2 {
+    width: 380px;
+    height: 90px;
+    float: left; border: none;
+    font-size: 28px;
+}
+
+
+.inputClass {
+    font-size: 28px;
+    color: #D7D7D7;
+}
+
+.msgcodeBtn {
+    width: 239px;
+    height: 80px;
+    border-left: 1px solid #eee;
+    border-radius: 0px;
+    background: #fff;
+    float: right;
+    line-height:80px;
+    text-align: center;
+    font-size: 28px;
+    color: #eb5d51;
+}
+.msgcodeBtn::after{
+    border: none;
+    }
+    .msgcodeBtn[disabled]::after{
+        background: none;
+    }
+    .sub_btn[disabled] {
+        background: none;
+        color: #999;
+        opacity: 0.6;
+      }
+
+.subtop{
+    margin-top: 100px;
+}
+
+.submitBtn {
+    width: 640px;
+    height: 80px;
+    border: none;
+    border-radius: 80px;
+    margin: 60px auto;
+    line-height: 80px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}

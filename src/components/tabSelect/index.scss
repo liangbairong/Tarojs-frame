@@ -1,0 +1,27 @@
+$color:#eb5d51;
+
+.title{
+    background: #fff;
+    border-bottom: 1PX solid #eee;
+    line-height: 80px;
+    display: flex;
+    .title_li{
+        font-size: 30px;
+        flex: 1;
+        text-align: center;
+        position: relative;
+    }
+    .title_li_on{
+        color: $color;
+    }
+    .title_li_on::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;height: 2PX;
+        width: 40%;
+        background: $color;
+        left: 50%;transform: translateX(-50%);
+    }
+    
+}

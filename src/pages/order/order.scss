@@ -1,0 +1,48 @@
+.con_li{
+    background: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    // align-items: center;
+    padding:30px 20px;
+    position: relative;
+    .icon_box{
+        flex: 1;
+        text-align: center;
+        .icon{
+            width: 200px;height:200px;
+        }
+    }
+    .action_z{
+        width: 176px;height: 130px;
+        position: absolute;
+        right: 30px;
+        top: 50%;transform: translateY(-50%);
+    }
+    
+    .con_li_box{
+        padding: 0 20px;
+        flex: 3;
+        width: 450px;
+        position: relative;
+        z-index: 2;
+    }
+    .con_li_tit{
+        color: #000;
+        font-size: 30px;
+        line-height: 50px;
+        height: 50px;
+        
+    }
+    .con_li_p{
+        color: #999;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .label{
+        display: inline-block;
+        padding: 3px 20px;border-radius: 30px;
+        background: #eee;
+        font-size: 20px;
+
+    }
+}
